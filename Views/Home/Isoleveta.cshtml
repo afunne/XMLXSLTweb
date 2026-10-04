@@ -1,0 +1,11 @@
+@* Kasutavad nii Isoleveta kui ka MinuSugupuu (pealkiri tuleb kontrollerist) *@
+
+<h1>@ViewData["Title"]</h1>
+<p class="text-muted">
+    Andmed: <code>@ViewBag.XmlFail</code>, teisendus: <code>XSLTFile.xslt</code>,
+    parameeter <code>aasta</code> = @DateTime.Now.Year
+</p>
+
+<div class="xslt-tulemus">
+    @Html.Raw(ViewBag.Tulemus)
+</div>

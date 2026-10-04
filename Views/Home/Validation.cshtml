@@ -1,0 +1,50 @@
+@{
+    ViewData["Title"] = "XML valideerimine";
+    var vead = (List<string>)ViewBag.Vead;
+}
+
+<h1>@ViewData["Title"]</h1>
+<p class="text-muted">
+    Fail <code>@ViewBag.XmlFail</code> kontrollitakse skeemi <code>Isoleveta.xsd</code> vastu
+    (C# <code>XmlReader</code> + <code>XmlSchemaSet</code>).
+</p>
+
+@if (vead.Count == 0)
+{
+    <div class="alert alert-success">
+        <strong>Valideerimine õnnestus!</strong> @ViewBag.XmlFail vastab skeemile Isoleveta.xsd.
+    </div>
+}
+else
+{
+    <div class="alert alert-danger">
+        <strong>Valideerimine ebaõnnestus.</strong> Leitud vead (@vead.Count):
+        <ul class="mb-0">
+            @foreach (var viga in vead)
+            {
+                <li>@viga</li>
+            }
+        </ul>
+    </div>
+}
+
+@if (ViewBag.Ekraanipilt)
+{
+    <section class="mt-4">
+        <h2>Ekraanipilt</h2>
+        <figure class="figure">
+            <img src="~/images/valideerimine.png" asp-append-version="true" class="figure-img img-fluid border shadow-sm" alt="Ekraanipilt: MinuSugupuu.xml valideerimine õnnestus" />
+            <figcaption class="figure-caption">@ViewBag.XmlFail valideeriti edukalt skeemi Isoleveta.xsd vastu.</figcaption>
+        </figure>
+    </section>
+}
+
+<section class="mt-4">
+    <h2>XML: @ViewBag.XmlFail</h2>
+    <pre class="bg-light border rounded p-3"><code>@ViewBag.Xml</code></pre>
+</section>
+
+<section class="mt-4">
+    <h2>Skeem: Isoleveta.xsd</h2>
+    <pre class="bg-light border rounded p-3"><code>@ViewBag.Xsd</code></pre>
+</section>

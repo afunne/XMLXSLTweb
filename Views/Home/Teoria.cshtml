@@ -1,0 +1,192 @@
+@{
+    ViewData["Title"] = "XML/XSLT teooria";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<section class="mt-4">
+    <h2>XML - Extensible Markup Language</h2>
+    <ul>
+        <li>XML-fail algab deklaratsiooniga: <code>&lt;?xml version="1.0" encoding="utf-8"?&gt;</code></li>
+        <li>XML-failil on täpselt üks juurelement.</li>
+        <li>API-d kasutavad andmevahetuseks XML-faile.</li>
+        <li>RSS-uudised hoitakse XML-ina.</li>
+        <li>KML-kaardid põhinevad XML-il.</li>
+        <li>XML-i kasutatakse süsteemidevahelisel andmevahetusel.</li>
+    </ul>
+</section>
+
+<section class="mt-4">
+    <h2>XSLT - Extensible Stylesheet Language Transformations</h2>
+    <ul>
+        <li>XML -&gt; XSLT -&gt; HTML</li>
+        <li>XML -&gt; XSLT -&gt; tekst</li>
+        <li>XML -&gt; XSLT -&gt; teine XML</li>
+        <li>XSLT kasutab andmete valimiseks XPathi.</li>
+        <li>Brauser oskab XSLT-d ise rakendada (<code>&lt;?xml-stylesheet type="text/xsl" href="..."?&gt;</code>).</li>
+        <li>Serveris teeb teisenduse C# klass <code>XslCompiledTransform</code>.</li>
+    </ul>
+</section>
+
+<section class="mt-4">
+    <h2>XSLT elemendid</h2>
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>Element</th>
+                    <th>Kirjeldus</th>
+                    <th>Näide</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>xsl:template</code></td>
+                    <td>Mall, mis kirjeldab, mida teha sobiva elemendiga</td>
+                    <td><code>&lt;xsl:template match="/"&gt;</code></td>
+                </tr>
+                <tr>
+                    <td><code>xsl:apply-templates</code></td>
+                    <td>Rakendab malle valitud elementidele</td>
+                    <td><code>&lt;xsl:apply-templates select="lapsed/inimene"/&gt;</code></td>
+                </tr>
+                <tr>
+                    <td><code>xsl:value-of</code></td>
+                    <td>Väljastab elemendi või avaldise väärtuse</td>
+                    <td><code>&lt;xsl:value-of select="nimi"/&gt;</code></td>
+                </tr>
+                <tr>
+                    <td><code>xsl:for-each</code></td>
+                    <td>Tsükkel üle valitud elementide</td>
+                    <td><code>&lt;xsl:for-each select="//inimene"&gt;</code></td>
+                </tr>
+                <tr>
+                    <td><code>xsl:if</code></td>
+                    <td>Tingimuslause (ilma else-osata)</td>
+                    <td><code>&lt;xsl:if test="@@synd &amp;gt; 1980"&gt;</code></td>
+                </tr>
+                <tr>
+                    <td><code>xsl:choose / xsl:when / xsl:otherwise</code></td>
+                    <td>Mitme haruga tingimuslause (if / else if / else)</td>
+                    <td><code>&lt;xsl:when test="@@synd"&gt;</code></td>
+                </tr>
+                <tr>
+                    <td><code>xsl:sort</code></td>
+                    <td>Sorteerib for-each või apply-templates tulemuse</td>
+                    <td><code>&lt;xsl:sort select="@@synd" order="descending"/&gt;</code></td>
+                </tr>
+                <tr>
+                    <td><code>xsl:param</code></td>
+                    <td>Parameeter, mille väärtuse saab anda väljastpoolt (nt C# koodist)</td>
+                    <td><code>&lt;xsl:param name="otsing"&gt;ll&lt;/xsl:param&gt;</code></td>
+                </tr>
+                <tr>
+                    <td><code>xsl:variable</code></td>
+                    <td>Muutuja (väärtust muuta ei saa)</td>
+                    <td><code>&lt;xsl:variable name="pikkus" select="string-length($otsing)"/&gt;</code></td>
+                </tr>
+                <tr>
+                    <td><code>xsl:attribute</code></td>
+                    <td>Lisab väljundelemendile atribuudi</td>
+                    <td><code>&lt;xsl:attribute name="class"&gt;punane&lt;/xsl:attribute&gt;</code></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<section class="mt-4">
+    <h2>XSLT funktsioonid</h2>
+    <div class="table-responsive">
+        <table class="table table-striped table-bordered">
+            <thead class="table-dark">
+                <tr>
+                    <th>Funktsioon</th>
+                    <th>Kirjeldus</th>
+                    <th>Näide</th>
+                    <th>Tulemus</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><code>count()</code></td>
+                    <td>Loeb elementide arvu</td>
+                    <td><code>count(lapsed/inimene)</code></td>
+                    <td>laste arv</td>
+                </tr>
+                <tr>
+                    <td><code>sum()</code></td>
+                    <td>Liidab elementide väärtused</td>
+                    <td><code>sum(//toode/hind)</code></td>
+                    <td>kõikide hindade summa</td>
+                </tr>
+                <tr>
+                    <td><code>substring()</code></td>
+                    <td>Võtab stringist osa (algus, pikkus)</td>
+                    <td><code>substring('Charles', 1, 1)</code><br /><code>substring('Charles', 1, 3)</code></td>
+                    <td>C<br />Cha</td>
+                </tr>
+                <tr>
+                    <td><code>string-length()</code></td>
+                    <td>Tagastab stringi pikkuse</td>
+                    <td><code>string-length('William')</code></td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td><code>concat()</code></td>
+                    <td>Liidab stringid kokku</td>
+                    <td><code>concat('Anne', ' : ', 4)</code></td>
+                    <td>Anne : 4</td>
+                </tr>
+                <tr>
+                    <td><code>starts-with()</code></td>
+                    <td>true, kui string algab antud väärtusega</td>
+                    <td><code>starts-with('Charles', 'C')</code></td>
+                    <td>true</td>
+                </tr>
+                <tr>
+                    <td><code>contains()</code></td>
+                    <td>true, kui string sisaldab antud väärtust</td>
+                    <td><code>contains('William', 'll')</code></td>
+                    <td>true</td>
+                </tr>
+                <tr>
+                    <td><code>position()</code></td>
+                    <td>Tagastab elemendi järjekorranumbri</td>
+                    <td><code>//inimene[position() = 1]</code></td>
+                    <td>esimene inimene</td>
+                </tr>
+                <tr>
+                    <td><code>last()</code></td>
+                    <td>Tagastab viimase elemendi positsiooni</td>
+                    <td><code>//inimene[last()]</code></td>
+                    <td>viimane inimene</td>
+                </tr>
+                <tr>
+                    <td><code>not()</code></td>
+                    <td>Pöörab tõeväärtuse ümber</td>
+                    <td><code>not(true())</code></td>
+                    <td>false</td>
+                </tr>
+                <tr>
+                    <td><code>true(), false()</code></td>
+                    <td>Tagastavad tõeväärtuse true või false</td>
+                    <td><code>true()</code></td>
+                    <td>true</td>
+                </tr>
+                <tr>
+                    <td><code>normalize-space()</code></td>
+                    <td>Eemaldab tühikud algusest ja lõpust ning asendab mitu tühikut üheks</td>
+                    <td><code>normalize-space('  prints   Harry ')</code></td>
+                    <td>prints Harry</td>
+                </tr>
+                <tr>
+                    <td><code>translate()</code></td>
+                    <td>Asendab stringis tähed: translate(tekst, algsümbolid, asendussümbolid)</td>
+                    <td><code>translate('kass', 'ss', 'tt')</code></td>
+                    <td>katt</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>

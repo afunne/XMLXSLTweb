@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Isoleveta.xml skeem: inimene -> nimi + (lapsed -> inimene ...) -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+
+	<!-- Juurelement -->
+	<xs:element name="inimene" type="inimeneTyyp"/>
+
+	<!-- Inimene: kohustuslik nimi, valikulised lapsed, sünni- ja surma-aasta -->
+	<xs:complexType name="inimeneTyyp">
+		<xs:sequence>
+			<xs:element name="nimi" type="nimiTyyp"/>
+			<xs:element name="lapsed" type="lapsedTyyp" minOccurs="0"/>
+		</xs:sequence>
+		<xs:attribute name="synd" type="xs:gYear" use="optional"/>
+		<xs:attribute name="surm" type="xs:gYear" use="optional"/>
+	</xs:complexType>
+
+	<!-- Lapsed: vähemalt üks inimene (rekursioon) -->
+	<xs:complexType name="lapsedTyyp">
+		<xs:sequence>
+			<xs:element name="inimene" type="inimeneTyyp" maxOccurs="unbounded"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<!-- Nimi ei tohi olla tühi -->
+	<xs:simpleType name="nimiTyyp">
+		<xs:restriction base="xs:string">
+			<xs:minLength value="1"/>
+			<xs:maxLength value="50"/>
+		</xs:restriction>
+	</xs:simpleType>
+
+</xs:schema>

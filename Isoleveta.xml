@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/css" href="StyleSheet.css"?>
+<!-- Sugupuu: iga inimene võib sisaldada lapsi (lapsed/inimene), surm on valikuline -->
+<inimene synd="1926" surm="2022" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Isoleveta.xsd">
+	<nimi>Elisaveta II</nimi>
+	<lapsed>
+		<inimene synd="1948">
+			<nimi>Charles</nimi>
+			<lapsed>
+				<inimene synd="1982">
+					<nimi>William</nimi>
+					<lapsed>
+						<inimene synd="2013">
+							<nimi>George</nimi>
+						</inimene>
+						<inimene synd="2015">
+							<nimi>Charlotte</nimi>
+						</inimene>
+						<inimene synd="2018">
+							<nimi>Louis</nimi>
+						</inimene>
+					</lapsed>
+				</inimene>
+				<inimene synd="1984">
+					<nimi>Harry</nimi>
+					<lapsed>
+						<inimene synd="2019">
+							<nimi>Archie</nimi>
+						</inimene>
+						<inimene synd="2021">
+							<nimi>Lilibet</nimi>
+						</inimene>
+					</lapsed>
+				</inimene>
+			</lapsed>
+		</inimene>
+		<inimene synd="1950">
+			<nimi>Anne</nimi>
+			<lapsed>
+				<inimene synd="1977">
+					<nimi>Peter</nimi>
+				</inimene>
+				<inimene synd="1979">
+					<nimi>Zara</nimi>
+				</inimene>
+			</lapsed>
+		</inimene>
+		<inimene synd="1960">
+			<nimi>Andrew</nimi>
+			<lapsed>
+				<inimene synd="1990">
+					<nimi>Beatrice</nimi>
+				</inimene>
+				<inimene synd="1992">
+					<nimi>Eugenie</nimi>
+				</inimene>
+			</lapsed>
+		</inimene>
+		<inimene synd="1964">
+			<nimi>Edward</nimi>
+			<lapsed>
+				<inimene synd="2003">
+					<nimi>Louise</nimi>
+				</inimene>
+				<inimene synd="2007">
+					<nimi>James</nimi>
+				</inimene>
+			</lapsed>
+		</inimene>
+	</lapsed>
+</inimene>

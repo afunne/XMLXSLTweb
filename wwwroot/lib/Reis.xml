@@ -1,0 +1,464 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<reisid>
+    <reis aasta="2026">
+        <suund id="Sweden">
+            <nimetus>Beach Getaway</nimetus>
+            <pikkus>22</pikkus>
+            <hinnang>4.2</hinnang>
+            <transport>
+                <liik>buss</liik>
+                <hind>89</hind>
+            </transport>
+            <majutus><hind>174</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Linnaekskursioon</nimi><hind>79</hind></ekskursioon>
+                <ekskursioon><nimi>Mäematk</nimi><hind>42</hind></ekskursioon>
+                <ekskursioon><nimi>Džiibisafari</nimi><hind>19</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>42</hind></muud>
+        </suund>
+        <suund id="Bosnia and Herzegovina">
+            <nimetus>Road Trip Across Country</nimetus>
+            <pikkus>1</pikkus>
+            <hinnang>3.2</hinnang>
+            <transport>
+                <liik>rong</liik>
+                <hind>286</hind>
+            </transport>
+            <majutus><hind>192</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Paadisõit</nimi><hind>43</hind></ekskursioon>
+                <ekskursioon><nimi>Linnaekskursioon</nimi><hind>95</hind></ekskursioon>
+                <ekskursioon><nimi>Kohalik toidutuur</nimi><hind>95</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>169</hind></muud>
+        </suund>
+        <suund id="China">
+            <nimetus>Camping Under the Stars</nimetus>
+            <pikkus>6</pikkus>
+            <hinnang>4.8</hinnang>
+            <transport>
+                <liik>auto</liik>
+                <hind>446</hind>
+            </transport>
+            <majutus><hind>150</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Linnaekskursioon</nimi><hind>86</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>54</hind></muud>
+        </suund>
+        <suund id="Ukraine">
+            <nimetus>Adventure in the Mountains</nimetus>
+            <pikkus>15</pikkus>
+            <hinnang>3.4</hinnang>
+            <transport>
+                <liik>rong</liik>
+                <hind>593</hind>
+            </transport>
+            <majutus><hind>220</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Mäematk</nimi><hind>28</hind></ekskursioon>
+                <ekskursioon><nimi>Kohalik toidutuur</nimi><hind>89</hind></ekskursioon>
+                <ekskursioon><nimi>Muuseumikülastus</nimi><hind>88</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>183</hind></muud>
+        </suund>
+        <suund id="Indonesia">
+            <nimetus>Beach Getaway</nimetus>
+            <pikkus>2</pikkus>
+            <hinnang>3.3</hinnang>
+            <transport>
+                <liik>laev</liik>
+                <hind>600</hind>
+            </transport>
+            <majutus><hind>829</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Kohalik toidutuur</nimi><hind>22</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>178</hind></muud>
+        </suund>
+        <suund id="Indonesia">
+            <nimetus>City Exploration</nimetus>
+            <pikkus>17</pikkus>
+            <hinnang>4.7</hinnang>
+            <transport>
+                <liik>rong</liik>
+                <hind>477</hind>
+            </transport>
+            <majutus><hind>895</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Paadisõit</nimi><hind>73</hind></ekskursioon>
+                <ekskursioon><nimi>Kohalik toidutuur</nimi><hind>61</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>96</hind></muud>
+        </suund>
+        <suund id="Portugal">
+            <nimetus>Adventure in the Mountains</nimetus>
+            <pikkus>17</pikkus>
+            <hinnang>3.7</hinnang>
+            <transport>
+                <liik>buss</liik>
+                <hind>123</hind>
+            </transport>
+            <majutus><hind>688</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Kohalik toidutuur</nimi><hind>58</hind></ekskursioon>
+                <ekskursioon><nimi>Paadisõit</nimi><hind>108</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>134</hind></muud>
+        </suund>
+        <suund id="China">
+            <nimetus>City Exploration</nimetus>
+            <pikkus>19</pikkus>
+            <hinnang>3.2</hinnang>
+            <transport>
+                <liik>auto</liik>
+                <hind>160</hind>
+            </transport>
+            <majutus><hind>624</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Muuseumikülastus</nimi><hind>34</hind></ekskursioon>
+                <ekskursioon><nimi>Mäematk</nimi><hind>77</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>127</hind></muud>
+        </suund>
+        <suund id="Nigeria">
+            <nimetus>Road Trip Across Country</nimetus>
+            <pikkus>8</pikkus>
+            <hinnang>4.7</hinnang>
+            <transport>
+                <liik>lennuk</liik>
+                <hind>361</hind>
+            </transport>
+            <majutus><hind>448</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Mäematk</nimi><hind>89</hind></ekskursioon>
+                <ekskursioon><nimi>Kohalik toidutuur</nimi><hind>117</hind></ekskursioon>
+                <ekskursioon><nimi>Paadisõit</nimi><hind>73</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>37</hind></muud>
+        </suund>
+        <suund id="East Timor">
+            <nimetus>Camping Under the Stars</nimetus>
+            <pikkus>17</pikkus>
+            <hinnang>4.5</hinnang>
+            <transport>
+                <liik>laev</liik>
+                <hind>106</hind>
+            </transport>
+            <majutus><hind>162</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Džiibisafari</nimi><hind>51</hind></ekskursioon>
+                <ekskursioon><nimi>Mäematk</nimi><hind>106</hind></ekskursioon>
+                <ekskursioon><nimi>Paadisõit</nimi><hind>64</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>191</hind></muud>
+        </suund>
+        <suund id="Central African Republic">
+            <nimetus>Beach Getaway</nimetus>
+            <pikkus>9</pikkus>
+            <hinnang>4.4</hinnang>
+            <transport>
+                <liik>lennuk</liik>
+                <hind>403</hind>
+            </transport>
+            <majutus><hind>272</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Linnaekskursioon</nimi><hind>42</hind></ekskursioon>
+                <ekskursioon><nimi>Paadisõit</nimi><hind>113</hind></ekskursioon>
+                <ekskursioon><nimi>Džiibisafari</nimi><hind>51</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>53</hind></muud>
+        </suund>
+        <suund id="Venezuela">
+            <nimetus>Beach Getaway</nimetus>
+            <pikkus>1</pikkus>
+            <hinnang>4.2</hinnang>
+            <transport>
+                <liik>buss</liik>
+                <liik>rong</liik>
+                <hind>548</hind>
+            </transport>
+            <majutus><hind>182</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Paadisõit</nimi><hind>66</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>160</hind></muud>
+        </suund>
+        <suund id="Somalia">
+            <nimetus>Road Trip Across Country</nimetus>
+            <pikkus>12</pikkus>
+            <hinnang>4.3</hinnang>
+            <transport>
+                <liik>buss</liik>
+                <hind>325</hind>
+            </transport>
+            <majutus><hind>823</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Mäematk</nimi><hind>44</hind></ekskursioon>
+                <ekskursioon><nimi>Paadisõit</nimi><hind>34</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>41</hind></muud>
+        </suund>
+        <suund id="Ukraine">
+            <nimetus>City Exploration</nimetus>
+            <pikkus>18</pikkus>
+            <hinnang>3.7</hinnang>
+            <transport>
+                <liik>buss</liik>
+                <hind>278</hind>
+            </transport>
+            <majutus><hind>112</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Kohalik toidutuur</nimi><hind>48</hind></ekskursioon>
+                <ekskursioon><nimi>Muuseumikülastus</nimi><hind>51</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>21</hind></muud>
+        </suund>
+        <suund id="Portugal">
+            <nimetus>Beach Getaway</nimetus>
+            <pikkus>2</pikkus>
+            <hinnang>4.7</hinnang>
+            <transport>
+                <liik>rong</liik>
+                <hind>418</hind>
+            </transport>
+            <majutus><hind>724</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Mäematk</nimi><hind>73</hind></ekskursioon>
+                <ekskursioon><nimi>Muuseumikülastus</nimi><hind>114</hind></ekskursioon>
+                <ekskursioon><nimi>Linnaekskursioon</nimi><hind>102</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>163</hind></muud>
+        </suund>
+        <suund id="Jordan">
+            <nimetus>Adventure in the Mountains</nimetus>
+            <pikkus>7</pikkus>
+            <hinnang>4.2</hinnang>
+            <transport>
+                <liik>rong</liik>
+                <hind>443</hind>
+            </transport>
+            <majutus><hind>206</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Džiibisafari</nimi><hind>22</hind></ekskursioon>
+                <ekskursioon><nimi>Paadisõit</nimi><hind>39</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>37</hind></muud>
+        </suund>
+        <suund id="Jordan">
+            <nimetus>Camping Under the Stars</nimetus>
+            <pikkus>25</pikkus>
+            <hinnang>3.5</hinnang>
+            <transport>
+                <liik>rong</liik>
+                <hind>152</hind>
+            </transport>
+            <majutus><hind>448</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Linnaekskursioon</nimi><hind>87</hind></ekskursioon>
+                <ekskursioon><nimi>Džiibisafari</nimi><hind>34</hind></ekskursioon>
+                <ekskursioon><nimi>Kohalik toidutuur</nimi><hind>83</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>45</hind></muud>
+        </suund>
+        <suund id="Brazil">
+            <nimetus>Camping Under the Stars</nimetus>
+            <pikkus>3</pikkus>
+            <hinnang>3.0</hinnang>
+            <transport>
+                <liik>auto</liik>
+                <hind>112</hind>
+            </transport>
+            <majutus><hind>312</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Paadisõit</nimi><hind>59</hind></ekskursioon>
+                <ekskursioon><nimi>Muuseumikülastus</nimi><hind>92</hind></ekskursioon>
+                <ekskursioon><nimi>Mäematk</nimi><hind>61</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>141</hind></muud>
+        </suund>
+        <suund id="United States">
+            <nimetus>Road Trip Across Country</nimetus>
+            <pikkus>7</pikkus>
+            <hinnang>4.5</hinnang>
+            <transport>
+                <liik>lennuk</liik>
+                <hind>517</hind>
+            </transport>
+            <majutus><hind>591</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Mäematk</nimi><hind>33</hind></ekskursioon>
+                <ekskursioon><nimi>Linnaekskursioon</nimi><hind>28</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>107</hind></muud>
+        </suund>
+        <suund id="Nigeria">
+            <nimetus>City Exploration</nimetus>
+            <pikkus>9</pikkus>
+            <hinnang>3.5</hinnang>
+            <transport>
+                <liik>laev</liik>
+                <liik>rong</liik>
+                <hind>568</hind>
+            </transport>
+            <majutus><hind>123</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Kohalik toidutuur</nimi><hind>61</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>57</hind></muud>
+        </suund>
+        <suund id="Brazil">
+            <nimetus>Beach Getaway</nimetus>
+            <pikkus>26</pikkus>
+            <hinnang>4.6</hinnang>
+            <transport>
+                <liik>auto</liik>
+                <liik>lennuk</liik>
+                <hind>345</hind>
+            </transport>
+            <majutus><hind>758</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Džiibisafari</nimi><hind>48</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>152</hind></muud>
+        </suund>
+        <suund id="Philippines">
+            <nimetus>Adventure in the Mountains</nimetus>
+            <pikkus>22</pikkus>
+            <hinnang>4.1</hinnang>
+            <transport>
+                <liik>buss</liik>
+                <hind>268</hind>
+            </transport>
+            <majutus><hind>645</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Kohalik toidutuur</nimi><hind>93</hind></ekskursioon>
+                <ekskursioon><nimi>Mäematk</nimi><hind>118</hind></ekskursioon>
+                <ekskursioon><nimi>Muuseumikülastus</nimi><hind>115</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>69</hind></muud>
+        </suund>
+        <suund id="Czech Republic">
+            <nimetus>Beach Getaway</nimetus>
+            <pikkus>29</pikkus>
+            <hinnang>3.7</hinnang>
+            <transport>
+                <liik>rong</liik>
+                <hind>244</hind>
+            </transport>
+            <majutus><hind>630</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Mäematk</nimi><hind>18</hind></ekskursioon>
+                <ekskursioon><nimi>Linnaekskursioon</nimi><hind>116</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>91</hind></muud>
+        </suund>
+        <suund id="China">
+            <nimetus>City Exploration</nimetus>
+            <pikkus>23</pikkus>
+            <hinnang>3.6</hinnang>
+            <transport>
+                <liik>laev</liik>
+                <hind>392</hind>
+            </transport>
+            <majutus><hind>557</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Mäematk</nimi><hind>43</hind></ekskursioon>
+                <ekskursioon><nimi>Džiibisafari</nimi><hind>28</hind></ekskursioon>
+                <ekskursioon><nimi>Linnaekskursioon</nimi><hind>44</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>140</hind></muud>
+        </suund>
+        <suund id="France">
+            <nimetus>Camping Under the Stars</nimetus>
+            <pikkus>26</pikkus>
+            <hinnang>3.6</hinnang>
+            <transport>
+                <liik>laev</liik>
+                <hind>534</hind>
+            </transport>
+            <majutus><hind>739</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Linnaekskursioon</nimi><hind>117</hind></ekskursioon>
+                <ekskursioon><nimi>Paadisõit</nimi><hind>97</hind></ekskursioon>
+                <ekskursioon><nimi>Mäematk</nimi><hind>25</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>189</hind></muud>
+        </suund>
+        <suund id="Kazakhstan">
+            <nimetus>Camping Under the Stars</nimetus>
+            <pikkus>20</pikkus>
+            <hinnang>3.6</hinnang>
+            <transport>
+                <liik>rong</liik>
+                <hind>529</hind>
+            </transport>
+            <majutus><hind>282</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Džiibisafari</nimi><hind>26</hind></ekskursioon>
+                <ekskursioon><nimi>Mäematk</nimi><hind>117</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>121</hind></muud>
+        </suund>
+        <suund id="Poland">
+            <nimetus>Road Trip Across Country</nimetus>
+            <pikkus>23</pikkus>
+            <hinnang>3.2</hinnang>
+            <transport>
+                <liik>rong</liik>
+                <hind>202</hind>
+            </transport>
+            <majutus><hind>274</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Linnaekskursioon</nimi><hind>34</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>171</hind></muud>
+        </suund>
+        <suund id="Russia">
+            <nimetus>Adventure in the Mountains</nimetus>
+            <pikkus>24</pikkus>
+            <hinnang>4.9</hinnang>
+            <transport>
+                <liik>buss</liik>
+                <hind>525</hind>
+            </transport>
+            <majutus><hind>773</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Muuseumikülastus</nimi><hind>85</hind></ekskursioon>
+                <ekskursioon><nimi>Kohalik toidutuur</nimi><hind>31</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>25</hind></muud>
+        </suund>
+        <suund id="Russia">
+            <nimetus>City Exploration</nimetus>
+            <pikkus>25</pikkus>
+            <hinnang>4.6</hinnang>
+            <transport>
+                <liik>lennuk</liik>
+                <hind>182</hind>
+            </transport>
+            <majutus><hind>544</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Muuseumikülastus</nimi><hind>18</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>84</hind></muud>
+        </suund>
+        <suund id="Russia">
+            <nimetus>Beach Getaway</nimetus>
+            <pikkus>23</pikkus>
+            <hinnang>4.6</hinnang>
+            <transport>
+                <liik>laev</liik>
+                <hind>286</hind>
+            </transport>
+            <majutus><hind>882</hind></majutus>
+            <ekskursioonid>
+                <ekskursioon><nimi>Mäematk</nimi><hind>31</hind></ekskursioon>
+                <ekskursioon><nimi>Džiibisafari</nimi><hind>22</hind></ekskursioon>
+                <ekskursioon><nimi>Paadisõit</nimi><hind>109</hind></ekskursioon>
+            </ekskursioonid>
+            <muud><hind>110</hind></muud>
+        </suund>
+    </reis>
+</reisid>

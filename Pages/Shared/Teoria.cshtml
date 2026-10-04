@@ -1,0 +1,70 @@
+﻿@page
+@model XmlXsltWeb.Pages.Shared.TeoriaModel
+@{
+    ViewData["Title"] = "XML/XSLT teooria";
+}
+
+<section class="mt-4">
+    <h2>XML - Extensible Markup Language</h2>
+    <ul>
+        <li>XML tuleb deklareerida.</li>
+        <li>API-d kasutavad XML faile.</li>
+        <li>RSS uudised hoitakse XMLina.</li>
+        <li>KML kaardid põhinevad XMLil.</li>
+        <li>Kasutame süsteemide andmevahetusel.</li>
+    </ul>
+</section>
+
+<section class="mt-4">
+    <h2>XSLT - Extensible Stylesheet Language Transformations</h2>
+    <ul>
+        <li>XML -> XSLT -> HTML</li>
+        <li>XML -> XSLT -> tekst</li>
+        <li>XML -> XSLT -> teine XML</li>
+        <li>XSLT -> kasutab XPathi andmete valimiseks</li>
+        <li>Brauser -> rakendab XSLT-d ise</li>
+    </ul>
+</section>
+
+<section class="mt-4">
+    <h2>XSLT funktsioonid</h2>
+    <br />count() - loeb elementide arvu
+    <br />sum() - liidab elementide väärtused
+    <br />substring(nimi,1,1) - võtab stringist esimese tähemärgi
+    <br />substring(nimi,1,3) - võtab stringist esimese kolme tähemärgi
+    <br />last() - tagastab viimase elemendi
+    <br />not() - tagastab true, kui väärtus on false
+    <br />string-length() - tagastab stringi pikkuse
+    <br />position() - tagastab elemendi positsiooni
+    <br />starts-with(nimi) - tagastab true, kui string algab kindla väärtusega
+    <br />not(), true(), false() - tagastab true või false
+    <br />normalize-space() - eemaldab tühikud stringi algusest ja lõpust
+    <br />translate(nimi, algsümboolid, lõpsümboolid) - asendab stringis tähed
+    translate(kass, 'ss', 'tt') --> katt
+
+</section>
+
+<div style="overflow-x:auto">
+    <table>
+        <thead>
+            <tr>
+                <th>Header 1</th>
+                <th>Header 2</th>
+                <th>Header 3</th>
+                <th>Header 4</th>
+                <th>Header 5</th>
+                <th>Header 6</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Row 1, Col 1</td>
+                <td>Row 1, Col 2</td>
+                <td>Row 1, Col 3</td>
+                <td>Row 1, Col 4</td>
+                <td>Row 1, Col 5</td>
+                <td>Row 1, Col 6</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

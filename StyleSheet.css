@@ -1,0 +1,17 @@
+﻿/* Isoleveta.xml kuvamiseks otse brauseris (ilma XSLT-ta) */
+inimene {
+    display: block;
+    margin-left: 20px;
+    padding: 5px 10px;
+    border-left: 3px solid green;
+    font-family: Arial, sans-serif;
+}
+
+nimi {
+    display: block;
+    font-weight: bold;
+}
+
+lapsed {
+    display: block;
+}

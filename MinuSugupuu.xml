@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/css" href="StyleSheet.css"?>
+<!-- Minu sugupuu: alguspunkt on vanaema Lalaze.
+     Sünniaastad on arvutatud vanuse järgi (2026): Lalaze 69, Hussein 19, Hamida 25, Rafael 8,
+     Ayhan, Usif ja Ali 8. klassis (~14), Farida 6. klassis (~12).
+     Esmira, Arzu ja Amid (1970-1988 vahel) on hinnangulised - paranda vajadusel. -->
+<inimene synd="1957" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="Isoleveta.xsd">
+	<nimi>Lalaze</nimi>
+	<lapsed>
+		<inimene synd="1977">
+			<nimi>Esmira</nimi>
+			<lapsed>
+				<inimene synd="2007">
+					<nimi>Hussein</nimi>
+				</inimene>
+				<inimene synd="2012">
+					<nimi>Ayhan</nimi>
+				</inimene>
+			</lapsed>
+		</inimene>
+		<inimene synd="1980">
+			<nimi>Arzu</nimi>
+			<lapsed>
+				<inimene synd="2001">
+					<nimi>Hamida</nimi>
+				</inimene>
+				<inimene synd="2012">
+					<nimi>Usif</nimi>
+				</inimene>
+				<inimene synd="2014">
+					<nimi>Farida</nimi>
+				</inimene>
+			</lapsed>
+		</inimene>
+		<inimene synd="1986">
+			<nimi>Amid</nimi>
+			<lapsed>
+				<inimene synd="2012">
+					<nimi>Ali</nimi>
+				</inimene>
+				<inimene synd="2018">
+					<nimi>Rafael</nimi>
+				</inimene>
+			</lapsed>
+		</inimene>
+	</lapsed>
+</inimene>
