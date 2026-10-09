@@ -16,16 +16,6 @@ namespace XmlXsltWeb.Controllers
             _env = env;
         }
 
-        public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Privacy()
-        {
-            return View();
-        }
-
         public IActionResult Teoria()
         {
             return View();
